@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* Apply Style To <header> */
@@ -42,8 +43,52 @@ header nav ul li a {
   font-size: 22px;
 }
 
+/*Apply Style to <footer> */
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+}
+
+/*Apply Style to <footer> <div> */
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+
 /* Apply Style To <body> */
 body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: white;
   }
+
+/* Apply Style To <section> */
+section {
+  padding: 60px;
+}
+
+/* Apply Style to <hero> */
+.hero {
+  background-image: url("../images/hero-bg.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Apply Style To Class hero-form */
+.hero-form {
+  border: 3px solid #024e76;
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
+  position: absolute;
+  bottom: 120px;
+  right: 140px;
+}
+
+.hero-form p {
+  margin: 5px 0 15px 0;
+}
