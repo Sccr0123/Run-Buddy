@@ -70,11 +70,17 @@ section {
 
 /* Apply Style to <hero> */
 .hero {
-  background-image: url("../images/hero-bg.png");
-  height: 600px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
+  background-image: url(../images/hero-bg.jpg);
+  margin: 20px;
+  font-size: 20px;
+  background-color: white;
+  color: blue;
+}
+
+/* Apply Style to <hero> On Secondary Pages */
+.hero-secondary {
+  background-color: black;
+  color: red;
 }
 
 /* Apply Style To Class hero-form */
