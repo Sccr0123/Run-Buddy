@@ -89,15 +89,18 @@ section {
   right: 140px;
 }
 
+/* Apply Style To Class hero-form <h3> */
 .hero-form h3 {
   font-size: 24px;
   margin: 0;
 }
 
+/* Apply Style To Class hero-form <p> */
 .hero-form p {
   margin: 5px 0 15px 0;
 }
 
+/* Apply Style To Class form-input */
 .form-input {
   border: 1px solid #024e76;
   display: block;
@@ -108,10 +111,12 @@ section {
   margin-bottom: 15px;
 }
 
+/* Apply Style To Class hero-form <label> */
 .hero-form label {
   margin: 0 5px;
 }
 
+/* Apply Style To Class hero-form <button> */
 .hero-form button {
   color: #fce138;
   background-color: #024e76;
@@ -120,24 +125,71 @@ section {
   font-size: 16px;
 }
 
+/* Apply Style To Class intro */
 .intro {
   text-align: center;
 }
 
-.intro h2 {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  border-color: #fce138;
-  display: inline-block;
-}
-
+/* Apply Style To Class intro <p> */
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+}
+
+/* Apply Style To Class steps */
+.steps {
+  text-align: center;
+  background: #fce138;
+}
+
+/* Apply Style To Class steps <div> */
+.steps div {
+  margin-bottom: 80px;
+}
+
+/* Apply Style To Class steps <img> */
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+}
+
+/* Apply Style To Class steps <h3> */
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+/* Apply Style To Class steps <p> */
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+
+/* Apply Style To Class steps <span> */
+.steps span {
+  font-size: 38px;
+}
+
+/* Apply Style To Class ssection-title */
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+/* Sets Primary Border */
+.primary-border {
+  border-color: #fce138;
+}
+
+/* Sets Secondary Border */
+.secondary-border {
+  border-color: #39a6b2;
 }
