@@ -1,0 +1,49 @@
+/* Apply Style To Entire Site */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply Style To <header> */
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+}
+
+/* Apply Style To <header> <h1> */
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+  display: inline;
+}
+
+/* Apply Style To <header> <a> */
+header a {
+  color: #fce138;
+}
+
+/* Apply Style To <header> <nav> */
+header nav {
+  float: right;
+  margin: 7px 0;
+}
+
+/* Apply Style to <header> <nav> <ul> <li> */
+header nav ul li{
+  display: inline;
+}
+
+/* Apply Style To <header> <nav> <ul> <li> <a> */
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+/* Apply Style To <body> */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: white;
+  }
