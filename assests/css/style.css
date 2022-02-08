@@ -9,6 +9,9 @@
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 /* Apply Style To <header> <h1> */
@@ -17,7 +20,6 @@ header h1 {
   font-size: 36px;
   color: #fce138;
   margin: 0;
-  display: inline;
 }
 
 /* Apply Style To <header> <a> */
@@ -27,7 +29,6 @@ header a {
 
 /* Apply Style To <header> <nav> */
 header nav {
-  float: right;
   margin: 7px 0;
 }
 
@@ -70,11 +71,11 @@ section {
 
 /* Apply Style to <hero> */
 .hero {
-  background-image: url(../images/hero-bg.jpg);
-  margin: 20px;
-  font-size: 20px;
-  background-color: white;
-  color: blue;
+  background-image: url('../images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 600px;
 }
 
 /* Apply Style to <hero> On Secondary Pages */
@@ -291,6 +292,7 @@ section {
 
 /* Sets Style For Class contact-info <p> and <address>*/
 .contact-info p, .contact-info address {
+  color: white;
   margin: 20px 0;
   line-height: 1.5;
   font-size: 20px;
