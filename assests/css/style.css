@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 980px) {
+  
+}
+
 /* Apply Style To <header> */
 header {
   padding: 20px 35px;
@@ -45,7 +49,7 @@ header nav ul li{
 
 /* Apply Style To <header> <nav> <ul> <li> <a> */
 header nav ul li a {
-  margin: 0 30px;
+  padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
 }
@@ -86,7 +90,7 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  
+  align-items: flex-start;
 }
 
 /* Apply Style to <hero> On Secondary Pages */
@@ -101,7 +105,7 @@ section {
   margin: 3.5%;
   color: #fff;
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 /*Apply Style To Class hero-cta <h2> */
@@ -227,7 +231,7 @@ section {
 
 /* Apply Style To Class section-title */
 .section-title {
-  font-size: 55px;
+  font-size: 48px;
   border-bottom: 3px solid;
   color: #024e76;
   padding-bottom: 20px;
