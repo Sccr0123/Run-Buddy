@@ -12,12 +12,10 @@
   box-sizing: border-box;
 }
 
-
-
 /* Apply Style To <header> */
 header {
   padding: 20px 35px;
-  background-color: #var(--tertiary-color);
+  background-color: var(--tertiary-color);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -198,7 +196,7 @@ section {
 
 /*Applys Styles When The User Hovers Over */
 .hero-form button:hover {
-  background-color: #var(--tertiary-color);  
+  background-color: var(--tertiary-color);  
 }
 
 .checkbox-wrapper label, .radio-wrapper label {
@@ -235,7 +233,7 @@ section {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-image: radial-gradient(circle, #var(--tertiary-color), var(--secondary-color));
+  background-image: radial-gradient(circle, var(--tertiary-color), var(--secondary-color));
   position: absolute;
   left: -29px;
   top: -3px;
@@ -275,7 +273,7 @@ section {
 .step {
   background: var(--primary-color);
   margin: 50px auto;
-  border-bottom: 1px solid #var(--tertiary-color);
+  border-bottom: 1px solid var(--tertiary-color);
   padding-bottom: 50px;
   width: 80%;
   display: flex;
@@ -298,7 +296,7 @@ section {
 
 /* Apply Style To Class steps <p> */
 .step p {
-  color: #var(--tertiary-color);
+  color: var(--tertiary-color);
   font-size: 23px;
 }
 
@@ -351,7 +349,7 @@ section {
 
 /* Sets Style For Class secondary-border */
 .secondary-border {
-  border-color: #var(--tertiary-color);
+  border-color: var(--tertiary-color);
 }
 
 /* Sets Style For Class trainers */
@@ -498,7 +496,7 @@ section {
 /* Applys Styles When The User Hovers Over */
 .contact-form button:hover {
   color: var(--primary-color);
-  background: #var(--tertiary-color);
+  background: var(--tertiary-color);
 }
 
 /* Sets Styles For Screens Under 980px */
