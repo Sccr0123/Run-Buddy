@@ -229,6 +229,7 @@ section {
   border-radius: 50%;
 }
 
+/* */
 .radio-wrapper label::after {
   content: "";
   width: 20px;
